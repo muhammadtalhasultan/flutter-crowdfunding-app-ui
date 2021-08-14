@@ -1,0 +1,30 @@
+name: afofa
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0+1
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.1.0
+  flutter_screenutil: ^5.0.0+2
+  flutter_svg: ^0.22.0
+  google_fonts: ^2.1.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
